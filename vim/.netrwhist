@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/jonas/NTNU/cloud/cloud2/internal/api/handlers'
+let g:netrw_dirhist_0='/Users/jonas/NTNU/cloud/cloud2/internal/api'
+let g:netrw_dirhist_9='/Users/jonas/NTNU/cloud/cloud2/internal'
+let g:netrw_dirhist_8='/Users/jonas/NTNU/cloud/cloud2'
+let g:netrw_dirhist_7='/Users/jonas/NTNU/adv-prog/lab07/lottery/app'
+let g:netrw_dirhist_6='/Users/jonas/NTNU/adv-prog/lab06/galactic-greetings/src'
+let g:netrw_dirhist_5='/Users/jonas/NTNU/adv-prog/lab06'
+let g:netrw_dirhist_4='/Users/jonas/NTNU/adv-prog/lab05/fibseq'
+let g:netrw_dirhist_3='/Users/jonas/src/CTF/2025/binary-encodings-1'
+let g:netrw_dirhist_2='/Users/jonas/NTNU/adv-prog/lab03/helloworld/app'

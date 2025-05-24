@@ -1,0 +1,17 @@
+[user]
+	name = Jonas Birkeli
+	email = jonabi@stud.ntnu.no
+	signingkey = /Users/jonas/.ssh/git-idi.key.pub
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[gpg]
+	format = ssh
+
+[user]
+  signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQCtl8siUmXSRFO3eorA3rHlpHy3xPNDBeDFb+/jKXyTyQQVgSNLaqMraJLNMSXGjS7UEvkmbSB0LU6dmmjbSaX5S/Rebl7QxTm7G0IMJCTocZMTrqnzhTbfGRbmrOZf9qJcS4YM5Stsi+62KJt+eVo9gqMM3laRLM+ovZxlPaYijbl4ujXxuYORz4pPmqUQwFzN7B5PlvVmRc3eIaGO0S4iZrzMaePfe0Bua744eiJIEnKyB0uS48LVTwtOk5SBwUOqqJ/ELpGW3c4Bs7EVFdOerXkm29hq/8FJB1vYaFlOkKCBJqjKh5QAZ9cHvrJPGlBxZj+Lw0QRlBOS2kgkPUxaYKdUXN5Y7CHo5ZOL5ZKmKYtP9rt+EJy5cUzVyh6UfInJBVQbj/18ICcyg1zfPZlRpUBMn8VgTfuuVVuoEEi/HyTrajgTOUoOXiG1NwIhG0WTDFNjLlZft3UqsDxuNznIXct4kLLTy3oY2gjcx0C7EFoPcKuzrv2pk/9QyAJ+0aM=
+
+[gpg]
+  format = ssh

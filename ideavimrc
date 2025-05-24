@@ -1,0 +1,4 @@
+Plug 'easymotion/vim-easymotion'
+set quickscope
+set number relativenumber
+set cursorline

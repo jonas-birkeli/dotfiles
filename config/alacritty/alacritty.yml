@@ -1,0 +1,26 @@
+live_config_reload: true
+
+window:
+  blur: true
+  opacity: .96
+  padding:
+    x: 18
+    y: 16
+  dynamic_padding: true
+  decorations: buttonless
+cursor:
+  style:
+    shape: Block
+  vi_mode_style:
+    shape: Underline
+font:
+  normal:
+    family: "Iosevka Term"
+    #family: "Styrene B Trial"
+    style: Regular
+
+
+
+import:
+  - ~/.alacritty-colorscheme/themes/catppuccin-mocha.yaml
+

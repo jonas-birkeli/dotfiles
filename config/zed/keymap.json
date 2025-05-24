@@ -1,0 +1,9 @@
+[
+  {
+    "context": "Editor",
+    "bindings": {
+      "cmd-alt-left": "pane::ActivatePrevItem",
+      "cmd-alt-right": "pane::ActivateNextItem"
+    }
+  }
+]

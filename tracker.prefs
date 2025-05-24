@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<object class="org.opensourcephysics.cabrillo.tracker.Tracker$Preferences">
+    <property name="tracker_jar" type="string">tracker.jar</property>
+    <property name="cache" type="string">/Users/jonas/Library/Caches/OSP</property>
+    <property name="upgrade_interval" type="int">0</property>
+    <property name="last_checked" type="int">1741245002</property>
+    <property name="file_chooser_directory" type="string">/Users/jonas/Tracker</property>
+</object>

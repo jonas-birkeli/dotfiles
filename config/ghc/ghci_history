@@ -1,0 +1,100 @@
+:}
+| otherwise = num:x:xs
+| num > x = x:insert num xs
+insert num (x:xs)
+insert num [] = [num]
+insert :: Ord a => a -> [a]
+:{
+:}
+}:
+           | otherwise = num:x:xs
+           | num > x = x:insert num xs
+insert num (x:xs)
+insert num [] = [num]
+insert :: Ord a => a -> [a]
+:{
+insert num x:xs | num > x = x : (insert num xs) | otherwise = num:x:xs
+insert num x:xs | num > x = x : (insert num xs) | otherwise = num:x:xs
+insert num [] = [num]; insert num x:xs | num > x = x : (insert num xs) | otherwise = num:x:xs
+insert num [] = [num]; insert num x:xs | num > x = x : (insert num) : xs | otherwise = num:x:xs
+insert num x:xs | num > x = x : (insert num) : xs | otherwise = num:x:xs
+insert num x:xs | num > x = x : (insert num) : xs | otherwise = num:x:xs
+insert num x:xs | num > x = x : (insert num) : xs | otherwise num:x:xs
+insert num nums@(x:xs)
+insert :: a -> [a]
+insert :: Integer -> [Integer]
+insert :: Int -> [Int]
+:q
+power2 = product . take 2 $ repeat
+:q
+power2 8
+power2 2
+power2 = product . take 2 . repeat
+:browse Prelude
+:q
+func list number = zipWith (`div`) list (repeat number)
+:q
+:q
+:m + Test.DocTest
+:q
+:q
+:m + Test.DocTest
+:q
+main
+:q
+quit
+bye
+exit
+:q
+q
+bober :: IO ()
+main :: IO ()
+squarebober = do
+squarebober = do {
+squarebober = do
+squarebober x = do
+squarebober x = do
+squarebober x = print ( show(square x))
+p
+p = print (bober)
+p
+p = print "bober"
+p = print bober
+square x = x * x
+:q
+rightTriangle
+rightTriangle = [ (a,b,c) | a <- [1..10], b <- [1..10], c <- [1..10], a^2 + b^2 == c^2]
+rightTriangle
+rightTriangle = [ (a,b,c) | a <- [1..10], b <- [1..a], c <- [1..b], a^2 + b^2 == c^2]
+rightTriangle
+rightTriangle = [ (a,b,c) | a <- [1..10], b <- [1..10], c <- [1..10], a^2 + b^2 == c^2]
+rightTriangle = [ (a,b,c) | a <- [1..10], b <- [1..10], c <- [1..10], a^2 + b^2 == c^2]
+rightTriangle = [ (a,b,c) | a <- [1..10], b <- [1..10], c <- [1..10], a^2+b^2==c^2]
+String hei
+main he
+main hei :: IO
+main hei :: IO ()
+main hei :: IO()
+main hei
+main parameter = putStrLn parameter
+main parameter = putStrLn "Hei"+parameter
+main
+main :: IO()
+main()
+main
+main = putStrLn "Hei"
+main = strPutLn "Hei"
+:q
+doubleMe 9
+:l baby
+:l
+doubleMe 9
+:l
+doubleMe 9
+:l baby.hs
+:q
+:l baby.sh
+:l baby
+:1 baby
+:q
+:t putStrLn
